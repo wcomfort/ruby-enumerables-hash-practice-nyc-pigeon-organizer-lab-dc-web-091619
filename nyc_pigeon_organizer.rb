@@ -6,6 +6,7 @@ def nyc_pigeon_organizer(data)
         if bird_names[pigeon_names] == nil 
           bird_names[pigeon_names] = {}
         end
-        if bird_names[pigeon_names][color_gender_lives] =
+        if bird_names[pigeon_names][color_gender_lives] == nil 
+           bird_names[pigeon_names][color_gender_lives] = []
       
 end
