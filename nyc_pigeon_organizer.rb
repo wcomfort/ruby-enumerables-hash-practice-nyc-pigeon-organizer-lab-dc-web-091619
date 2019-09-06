@@ -5,6 +5,7 @@ def nyc_pigeon_organizer(data)
       names.each do |pigeon_names|
         if bird_names[pigeon_names] == nil 
           bird_names[pigeon_names] = {}
-          
+        end
+        if bird_names
       
 end
